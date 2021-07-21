@@ -22,8 +22,8 @@ layout: default
         </a>
       {%- endif -%}
     </div>
-
-    <p>{{ post.excerpt | strip_html }}</p>
+    <!-- 删除post.excerpt到下一个目录的文本区域 -->
+    <!-- <p>{{ post.excerpt | strip_html }}</p> -->
   </section>
   {% endfor %}
   {%- if jekyll.environment == "production" and site.disqus -%}

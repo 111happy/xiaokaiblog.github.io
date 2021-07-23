@@ -40,9 +40,9 @@ exclude:
 # google_site_verification: xxxxx
 # lang: zh
 
-# sass:
-#   sass_dir: _sass
-#   style: :compressed
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Options
 

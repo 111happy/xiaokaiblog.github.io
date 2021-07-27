@@ -1,6 +1,6 @@
 ---
 layout: archive-taxonomies
 permalink: /tags/
-title: Tags
-type: 标签
+title: 标签
+type: tags
 ---

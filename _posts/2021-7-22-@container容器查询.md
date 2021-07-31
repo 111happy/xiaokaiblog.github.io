@@ -14,11 +14,15 @@ date: 2021-7-22
 + 最低：Chromium 91.0.4459.0 并#enable-container-queries通过chrome://flags.
 
 # 代码实例
-<iframe height="500" style="width: 100%;" scrolling="no" title="grid@container" src="https://codepen.io/cai_kai/embed/ZEeZBKO?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<div style="resize: both;overflow: hidden; height: 500px;position: relative; margin-bottom: 1rem;">
+<iframe height="100%" style="width: 100%;" scrolling="no" title="grid@container" src="https://codepen.io/cai_kai/embed/ZEeZBKO?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/cai_kai/pen/ZEeZBKO">
   grid@container</a> by 山子安 (<a href="https://codepen.io/cai_kai">@cai_kai</a>)
-  on <a href="https://codepen.io">CodePen</a>.
+  on <a href="https://codepen.io">CodePen</a>
 </iframe>
+<!-- 拉动样式 -->
+<div style="position: absolute;width: 24px;height: 24px;bottom: 0;right: 0;z-index: 5000;cursor: nwse-resize;-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 0 100%);background: repeating-linear-gradient(138deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5) 2px, #000 0, #000 4px);touch-action: none;"></div>
+</div>
 
 + 代码详解
 ```css

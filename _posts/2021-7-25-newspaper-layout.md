@@ -35,11 +35,17 @@ date: 2021-7-25
 > 注意: column-break-before,column-break-after, column-break-inside。chorme兼容性比较差，要加浏览器前缀！ie 10以上支持！
 
 + 实例代码 [codepen](https://codepen.io/cai_kai/pen/KKmZPwx)
-<iframe height="500" style="width: 100%;" scrolling="no" title="" src="https://codepen.io/cai_kai/embed/KKmZPwx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<div style="resize: both;overflow: hidden; height: 500px;position: relative; margin-bottom: 1rem;">
+<iframe height="100%" style="width: 100%;" scrolling="no" title="newspaper" src="https://codepen.io/cai_kai/embed/KKmZPwx?default-tab=css%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/cai_kai/pen/KKmZPwx">
-  </a> by 山子安 (<a href="https://codepen.io/cai_kai">@cai_kai</a>)
+  newspaper</a> by 山子安 (<a href="https://codepen.io/cai_kai">@cai_kai</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
+<!-- 拉动样式 -->
+<div style="position: absolute;width: 24px;height: 24px;bottom: 0;right: 0;z-index: 5000;cursor: nwse-resize;-webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%);clip-path: polygon(100% 0, 100% 100%, 0 100%);background: repeating-linear-gradient(138deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5) 2px, #000 0, #000 4px);touch-action: none;"></div>
+</div>
+
+
 
 
 + [兼容性比较](https://caniuse.com/?search=column)

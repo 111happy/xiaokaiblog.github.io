@@ -1,7 +1,7 @@
 # Setup
 title: 小凯
 description: 锦瑟无端五十弦，一弦一柱思华年
-url: https://111happy.github.io/xiaokaiblog.github.io/
+url: http://blogxiaokai.top
 avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
@@ -56,5 +56,5 @@ sass:
 # Specify the author for blog posts
 author:
   name: cj_kai
-  url: https://111happy.github.io/xiaokaiblog.github.io/
+  url: https://github.com/111happy
   email: ch_kaijack@outlook.com

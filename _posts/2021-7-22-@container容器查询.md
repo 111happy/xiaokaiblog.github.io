@@ -45,4 +45,4 @@ date: 2021-7-22
 + 优点：可以更细致化的处理
 + 响应式问题。不根据视口，只关注容器自身，便于开发。在前端框架组件中符合高内聚低耦合的设计思想。
 
-![兼容性]({{ site.url }}/assets/img/@container/Snipaste_2021-07-22_20-04-16.png)
+<img class="lazy" data-src="{{ site.url }}/assets/img/@container/Snipaste_2021-07-22_20-04-16.png">

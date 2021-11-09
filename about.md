@@ -3,5 +3,4 @@ layout: page
 title: 关于
 ---
 ## 联系方式:
-+ QQ:2268128377
-+ 微信:13047934608
++ 邮箱:ch_kaijack@outlook.com

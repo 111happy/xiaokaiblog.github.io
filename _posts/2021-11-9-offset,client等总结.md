@@ -44,8 +44,8 @@ date: 2021-11-9
 | HTMLElement.offsetParent | 返回一个指向最近的（指包含层级上的最近）包含该元素的定位元素或者最近的 table,td,th,body元素。 |
 | HTMLElement.offsetTop    | 它返回当前元素相对于其offsetParent元素的顶部之间的距离  ie>=5.5 |
 | HTMLElement.offsetHeight | 它返回该元素的像素高度，高度包含该元素的上下padding+自身高度height+上下边框border，且是一个整数。 ie >= 5.5 |
-| HTMLElement.offsetWidth  | 它返回该元素的像素宽度，高度包含该元素的左右padding+自身宽度height+左右边框border，且是一个整数。 ie >= 5.5 |
-| HTMLElement.offsetLef    | 它返回当前元素相对于其offsetParent元素的左边之间的距离  ie>=5.5 |
+| HTMLElement.offsetWidth  | 它返回该元素的像素宽度，高度包含该元素的左右padding+自身宽度width+左右边框border，且是一个整数。 ie >= 5.5 |
+| HTMLElement.offsetLeft    | 它返回当前元素相对于其offsetParent元素的左边之间的距离  ie>=5.5 |
 
 > 当offsetParent属性设置为fixed返回Null，或者元素display设置none时返回null;或者元素是<body>,<html>也是null
 
